@@ -80,7 +80,7 @@ insights-associacao-variaveis-vendas/
 
 ---
 
-## 🚀 Possíveis aplicações
+## Possíveis aplicações
 
 - Análise de desempenho de vendas  
 - Segmentação de produtos  
@@ -90,8 +90,8 @@ insights-associacao-variaveis-vendas/
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Paulo Victor Moraes Lima  
-📊 Data Science em formação (FIAP)
+Data Science em formação (FIAP)
 
