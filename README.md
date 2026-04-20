@@ -37,7 +37,7 @@ O projeto também busca demonstrar a escolha correta de técnicas estatísticas,
 
 ---
 
-## 🔬 Metodologias Utilizadas
+## Metodologias Utilizadas
 
 - Correlação de **Pearson**  
 - Correlação de **Spearman**  
@@ -69,13 +69,13 @@ A análise permite:
 - Evitar interpretações incorretas ao aplicar métodos estatísticos inadequados  
 
 ---
-
+```
 ## Estrutura do Repositório
-'''
+
 insights-associacao-variaveis-vendas/
 ├── ANALISE_CORRELACAO.ipynb
 └── README.md
-'''
+```
 
 
 ---
@@ -87,9 +87,6 @@ insights-associacao-variaveis-vendas/
 - Apoio à tomada de decisão comercial  
 - Identificação de padrões de consumo  
 - Base para modelos preditivos  
-
----
-
 
 ---
 
