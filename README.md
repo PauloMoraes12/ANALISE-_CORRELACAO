@@ -1,70 +1,100 @@
 # Análise de Correlação e Associação em Dados de Vendas
 
-Este projeto apresenta uma análise estatística aplicada com foco na
-**correlação e associação entre variáveis quantitativas e categóricas**
-em um conjunto de dados de vendas.
-
-O objetivo principal é demonstrar **a escolha correta de métodos
-estatísticos**, evitando o uso inadequado de coeficientes de correlação
-tradicionais em variáveis categóricas, além de comunicar resultados de
-forma clara e estruturada.
+> Projeto de análise estatística aplicado para identificar relações entre variáveis de vendas e apoiar decisões baseadas em dados.
 
 ---
 
-## Objetivo do Projeto
+## Objetivo
 
-- Aplicar correlação de **Pearson** e **Spearman** em variáveis quantitativas
-- Avaliar associação entre variáveis categóricas com **Qui-quadrado** e **Cramér’s V**
-- Comparar médias entre grupos utilizando **ANOVA**
-- Demonstrar boas práticas de análise exploratória e estatística aplicada
-- Construir um projeto organizado para portfólio no GitHub
+Analisar um conjunto de dados de vendas com o intuito de identificar relações entre variáveis quantitativas e categóricas, utilizando métodos estatísticos adequados para cada tipo de dado.
+
+O projeto também busca demonstrar a escolha correta de técnicas estatísticas, evitando interpretações equivocadas ao aplicar métodos inadequados.
 
 ---
 
-## Variáveis Analisadas
+## O que foi feito
 
-| Variável | Tipo Estatístico |
-|--------|----------------|
-| `quantidade` | Quantitativa discreta |
-| `preco_unitario` | Quantitativa contínua |
-| `valor_total` | Quantitativa contínua |
-| `tipo_produto` | Categórica nominal |
-| `forma_pagamento` | Categórica nominal |
-
----
-
-## Metodologias Utilizadas
-
-- Correlação de **Pearson**
-- Correlação de **Spearman**
-- Teste **Qui-quadrado**
-- **Cramér’s V** para força da associação
-- **ANOVA** para comparação de médias entre grupos
-- Visualizações com gráficos de dispersão e boxplots
+- Análise exploratória dos dados  
+- Aplicação de correlação de Pearson e Spearman  
+- Análise de associação entre variáveis categóricas  
+- Aplicação do teste Qui-quadrado  
+- Cálculo do coeficiente de Cramér’s V  
+- Comparação de médias entre grupos com ANOVA  
+- Visualização de dados com gráficos  
+- Interpretação dos resultados com foco em negócio  
 
 ---
 
-## Tecnologias Utilizadas
+## Variáveis analisadas
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- SciPy
+| Variável           | Tipo Estatístico          |
+|------------------|--------------------------|
+| quantidade        | Quantitativa discreta     |
+| preco_unitario    | Quantitativa contínua     |
+| valor_total       | Quantitativa contínua     |
+| tipo_produto      | Categórica nominal        |
+| forma_pagamento   | Categórica nominal        |
+
+---
+
+## 🔬 Metodologias Utilizadas
+
+- Correlação de **Pearson**  
+- Correlação de **Spearman**  
+- Teste **Qui-quadrado**  
+- **Cramér’s V** para medir força da associação  
+- **ANOVA** para comparação de médias  
+- Visualizações com gráficos de dispersão e boxplots  
+
+---
+
+## Tecnologias
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- SciPy  
+
+---
+
+## Aplicação prática
+
+A análise permite:
+
+- Identificar relações entre preço, quantidade e faturamento  
+- Entender o impacto de variáveis categóricas nas vendas  
+- Apoiar decisões comerciais e estratégias de precificação  
+- Detectar padrões e comportamentos relevantes  
+- Evitar interpretações incorretas ao aplicar métodos estatísticos inadequados  
 
 ---
 
 ## Estrutura do Repositório
+'''
+insights-associacao-variaveis-vendas/
+├── ANALISE_CORRELACAO.ipynb
+└── README.md
+'''
 
-```text
-analise-correlacao-vendas/
-│
-├── data/
-│   └── vendas.csv
-│
-├── notebooks/
-│   └── 01_analise_correlacao_github.ipynb
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+
+---
+
+## 🚀 Possíveis aplicações
+
+- Análise de desempenho de vendas  
+- Segmentação de produtos  
+- Apoio à tomada de decisão comercial  
+- Identificação de padrões de consumo  
+- Base para modelos preditivos  
+
+---
+
+
+---
+
+## 👨‍💻 Autor
+
+Paulo Victor Moraes Lima  
+📊 Data Science em formação (FIAP)
+
